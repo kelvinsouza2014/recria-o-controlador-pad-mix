@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+    /* ESTRUTURA DA PÁGINA */
+body {
+    text-align: center;
+    background: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
+    height: 100vh;
+}
+
+    /* CABEÇALHO */
+
+/* TÍTULO */
+.titulo_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.titulo_principal {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4em;
+    color: #FF0099;
+    text-transform: uppercase;
+}
+/* TÍTULO */
+
+    /* CONTEÚDO PRINCIPAL */
+
+/* .container {
+
+} */
+
+/* CAIXA */
+/* .caixa_icone_musica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E0A30;
+} */
+/* CAIXA */

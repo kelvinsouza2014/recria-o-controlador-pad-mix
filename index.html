@@ -9,22 +9,62 @@
         <!-- TÍTULO DA PÁGINA -->
         <title>R. Controlador Pad Mix</title>
         <!-- FONTES -->
-        <!-- [adicionar os links das fontes] -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Big+Shoulders+Display:wght@800&display=swap" rel="stylesheet">
         <!-- FOLHAS DE ESTILO -->
         <link rel="stylesheet" href="./src/css/reset.css">
         <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <header>
-            <nav>
-
-            </nav>
+            <div>
+                <h1 class="titulo_principal">Controlador Pad Mix</h1>
+            </div>
         </header>
         <main>
-
+            <div class="container">
+                <div class="caixa_icone_musica">
+                    <i class="fa-solid fa-music"></i>
+                </div>
+                <article>
+                    <!-- BOTÕES -->
+                    <section>
+                        <button class="botoes botao_pom"></button>
+                        <button class="botoes botao_clap"></button>
+                        <button class="botoes botao_tim"></button>
+                        <button class="botoes botao_puff"></button>
+                        <button class="botoes botao_splash"></button>
+                        <button class="botoes botao_toim"></button>
+                        <button class="botoes botao_psh"></button>
+                        <button class="botoes botao_tic"></button>
+                        <button class="botoes botao_tom"></button>
+                    </section>
+                    <!-- ÁUDIOS -->
+                    <section>
+                        <audio src="./src/audio/pom.wav"></audio>
+                        <audio src="./src/audio/clap.wav"></audio>
+                        <audio src="./src/audio/tim.wav"></audio>
+                        <audio src="./src/audio/puff.wav"></audio>
+                        <audio src="./src/audio/splash.wav"></audio>
+                        <audio src="./src/audio/toim.wav"></audio>
+                        <audio src="./src/audio/psh.wav"></audio>
+                        <audio src="./src/audio/tic.wav"></audio>
+                        <audio src="./src/audio/tom.wav"></audio>
+                    </section>
+                </article>
+            </div>
         </main>
         <footer>
-            
+             <!-- CONTATO -->
+             <ul>
+                <li><a href="https://www.linkedin.com/in/kelvinsouza00/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/kelvinsouza2014" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="mailto:kelvinsouza2017@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+            <!-- DIREITOS AUTORAIS -->
+            <p>&copy; Kelvin Souza. Todos os Direitos Reservados.</p>
         </footer>
         <script src="./src/js/main.js"></script>
     </body>
