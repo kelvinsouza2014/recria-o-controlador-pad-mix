@@ -52,8 +52,7 @@ body {
 
 /* background */
 .caixa_icone_musica, .caixa_botoes {
-    /* background-color: var(--azul_marinho); */
-    background: var(--azul_marinho);
+    background-color: var(--azul_marinho);
 }
 
 .caixa_icone_musica {
