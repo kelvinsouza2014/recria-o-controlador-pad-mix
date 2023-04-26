@@ -37,10 +37,6 @@ body {
 
     /* CONTEÚDO PRINCIPAL */
 
-/* .container {
-
-} */
-
 /* CAIXA ÍCONE MUSICA */
 .caixa_icone_musica {
     display: flex;
@@ -98,3 +94,34 @@ body {
     transform: scale(0.9);
 }
 /* CAIXA BOTÕES */
+
+/* CAIXA CONTATO */
+.caixa_contato {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.caixa_contato ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.caixa_contato a {
+    font-size: 30px;
+    color: var(--azul_marinho);
+}
+
+.caixa_contato a:hover {
+    color: #A80053;
+}
+/* CAIXA CONTATO */
+
+/* COPYRIGHT */
+.copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--cinza_claro);
+    margin-bottom: 3rem;
+    opacity: 0.4;
+}
+/* COPYRIGHT */
