@@ -2,10 +2,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --azul_marinho: #0E0A30;
+    --rosa_pink: #FF0099;
+    --cinza_claro: #aba9c1;
+    --branco: #FFFFFF;
+    --gradiente: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
+}
+
     /* ESTRUTURA DA PÁGINA */
 body {
     text-align: center;
-    background: linear-gradient(150deg,#111B4C,#29008E,#650354,#A80053);
+    background: var(--gradiente);
     height: 100vh;
 }
 
@@ -22,7 +30,7 @@ body {
 .titulo_principal {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 4em;
-    color: #FF0099;
+    color: var(--rosa_pink);
     text-transform: uppercase;
 }
 /* TÍTULO */
@@ -33,11 +41,61 @@ body {
 
 } */
 
-/* CAIXA */
-/* .caixa_icone_musica {
+/* CAIXA ÍCONE MUSICA */
+.caixa_icone_musica {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0E0A30;
-} */
-/* CAIXA */
+    margin: 0 2rem 3.12rem;
+    height: 300px;
+}
+
+/* background */
+.caixa_icone_musica, .caixa_botoes {
+    /* background-color: var(--azul_marinho); */
+    background: var(--azul_marinho);
+}
+
+.caixa_icone_musica {
+    font-size: 60px;
+    color: var(--rosa_pink);
+}
+/* CAIXA ÍCONE MUSICA */
+
+/* CAIXA BOTÕES */
+.caixa_botoes {
+    margin: 0 2rem;
+}
+
+.botoes ul {
+    padding: 40px 0;
+}
+
+.botoes li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.botoes button {
+    width: 100px;
+    height: 100px;
+    background: var(--gradiente);
+}
+
+.botoes button {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    color: var(--branco);
+}
+
+.botao:hover {
+    border: solid 2px #635f5f;
+}
+
+.botao:active {
+    background-color: #10094F;
+    border: solid 1px #8900c9;
+    color: #A80053;
+    transform: scale(0.9);
+}
+/* CAIXA BOTÕES */
